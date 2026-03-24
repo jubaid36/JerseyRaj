@@ -144,3 +144,41 @@
 .hero-massage a{
     color: #007185;
 }
+
+/* content-section */
+.content-section{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  background-color: #e2e7e6;
+}
+
+.box{
+  border: 2px solid black;
+  height: 380px;
+  width: 22%;
+  background-color: white;
+  padding: 20px 0px 15px;
+  margin-top: 15px;
+}
+.box01-img{
+  height: 270px;
+  width: 100%;
+  
+  background-size: cover;
+  background-repeat: no-repeat; 
+  margin-top: 1rem;
+  margin-bottom: 0;
+  background-size: 100% 80%; 
+}
+.box01-content{
+  margin-left: 1rem;
+  margin-right: 1rem;
+}
+.content-heading{
+  font-size: 1rem;
+  text-align: center;
+}
+.box01-content p{
+  color: #007185;
+}
